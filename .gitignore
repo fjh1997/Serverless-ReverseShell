@@ -1,0 +1,18 @@
+.vercel
+*.log
+*.pyc
+__pycache__
+node_modules
+package.json
+pnpm-lock.yaml
+
+# Environments 
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
+.vercel
+.env*.local
