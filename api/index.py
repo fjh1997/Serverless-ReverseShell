@@ -1,4 +1,4 @@
-from flask import Flask,request,send_file
+from flask import Flask,request,render_template
 import redis
 import os
 
@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 #KV_URL=os.environ.get('KV_URL').replace("redis","rediss") #tls support
 REDIS_URL=os.environ.get('REDIS_URL')
+DOMAIN_NAME=os.environ.get('DOMAIN_NAME')
 
 #r = redis.Redis.from_url( KV_URL )
 r = redis.Redis.from_url(REDIS_URL)
@@ -76,4 +77,4 @@ def result():
 
 @app.route('/download')
 def download():
-    return send_file('client.py')
+    return render_template('client.py', DOMAIN_NAME=DOMAIN_NAME)

