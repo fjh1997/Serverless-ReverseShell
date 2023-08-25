@@ -30,6 +30,9 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fjh1997/Serverless-ReverseShell/tree/main/&&env=REDIS_URL,DOMAIN_NAME)
 
 Remember to set the environment variable REDIS_URL to the address from [redislabs](https://app.redislabs.com/)<br>
+
 And also the DOMAIN_NAME for client.py :-) <br>
+
 note: For chinese user,a cdn is needed as Vercel was blocked.<br>
+
 <b>For education purposes only.</b>
